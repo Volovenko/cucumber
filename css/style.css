@@ -1,0 +1,182 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.empty-space {
+  margin-bottom: 50px;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  background: #fff;
+  top: 0;
+  opacity: 0.95;
+}
+
+.header-logo {
+  float: left;
+  display: inline;
+  padding: 0 20px;
+}
+
+.header-logo img {
+  width: 300px;
+}
+
+.header-menu {
+  text-align: center;
+  vertical-align: baseline;
+  line-height: 50px;
+}
+
+.header-menu-item {
+  list-style: none;
+  padding: 15px 20px;
+  margin: 0;
+  display: inline-block;
+}
+
+.header-menu-item a:hover {
+  border-bottom: 2px solid;
+}
+
+.header-menu-link {
+  text-decoration: none;
+  color: #30823e;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.intro {
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  padding: 60px;
+  margin-top: 76px;
+  height: 600px;
+}
+
+.sale {
+  background-image: url("../img/sale.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  padding: 60px;
+  margin-top: 76px;
+  height: 200px;
+}
+
+.title-sale {
+  text-align: center;
+  margin-top: 50px;
+  line-height: 40px;
+}
+
+.hashtag {
+  text-transform: uppercase;
+  color: red;
+}
+
+.title {
+  text-align: center;
+  padding: 30px;
+  font-size: 36px;
+}
+
+.second-title {
+  text-align: center;
+}
+
+.second-title-intro {
+  text-align: center;
+}
+
+.text-suggestion {
+  text-align: center;
+  padding: 50px;
+}
+
+.line {
+  text-align: center;
+}
+
+.line img {
+   width: 250px;
+   float: none !important;
+}
+
+.advantages {
+  text-align: center;
+}
+
+.advantages p{
+  color: grey;
+}
+
+.reviews {
+  text-align: left;
+}
+
+.reviews img {
+  padding-right: 15px;
+}
+
+.reviews h3 {
+  margin-bottom: 10px;
+}
+
+.reviews column-1-2 {
+  padding-right: 15px;
+}
+
+.column-1-3 img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 1px solid green;
+}
+
+.column-1-2 img {
+  width: 250px;
+  float: left;
+  height: 200px;
+}
+
+.big-cucumber {
+  width: 550px !important;
+}
+
+.buy {
+  display: block;
+  margin-top: 25px;
+  padding: 25px;
+  width: 100%;
+  background: #288821;
+  border: 1px solid #fff;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+}
+
+@media (max-width: 640px) {
+  .header {
+    position: inherit;
+    width: auto;
+    background: #fff;
+    top: auto;
+    opacity: 1;
+  }
+
+  .header-nav,
+  .header-logo {
+    float: none;
+  }
+
+}
+
+@media (max-width: 360px) {
+  .header-nav-item {
+    display: block;
+  }
+}

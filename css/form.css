@@ -1,0 +1,36 @@
+input{
+  display: block;
+  margin-bottom: 25px;
+  padding: 25px;
+  text-align: center;
+  width: 70%;
+  background: #00000073;
+  border: 1px solid #fff;
+  font-size: 16px;
+  color: #fff;
+}
+
+::-webkit-input-placeholder {
+  color:#fff;
+  text-indent: 0px;
+  transition: text-indent 0.3s ease;
+}
+
+input:focus::-webkit-input-placeholder {
+  text-indent: 500px; 
+  transition: text-indent 0.3s ease;
+    color: transparent;
+}
+
+button {
+ display: block;
+  margin-bottom: 25px;
+  padding: 25px;
+  text-align: center;
+  width: 78%;
+  background: #00000073;
+  border: 1px solid #fff;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+}
